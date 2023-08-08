@@ -1,21 +1,97 @@
 .Barra{
-    display:inline-flex;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: rgb(0, 0, 30);
     height: 6rem;
 }
 
-#Estilos{
+.botonestilos{
+    margin-left: -3rem;
+    color: rgba(32, 187, 195, 0.849);
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.estilos{
     color: rgba(32, 187, 195, 0.849);
     font-style: italic;
     font-size: 1.2rem;
 }
 
-.bi.bi-cart{
+.menu{
+    margin-left: -15rem;
+    color:rgba(32, 187, 195, 0.849);
+    background-color: rgb(0, 0, 30); 
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.bi-cart-fill{
     color: white;
+    font-size: 2rem;
 }
 
 .codeado{
-    color: yellow; 
+    color: rgba(32, 187, 195, 0.849);
+    font-size: 1rem
 }
+
+
+#card{
+    display: inline-flex;
+    align-items: center;
+    width: 20%;
+    border-width: 0.5rem;
+    border-color: rgb(0, 0, 30); 
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-color: grey
+
+}
+#nombrereloj{
+    width: 90%;
+    margin-top: 1rem;
+    border-width: 0.2rem;
+    border-radius: 10rem;
+    font-family:cursive;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+#botonencard{
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border-width: 0.2rem;
+    border-color: rgba(32, 187, 195, 0.849);
+    background-color: rgb(0, 0, 30); 
+    color: rgba(32, 187, 195, 0.849);
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+#botonencard:hover{
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(32, 187, 195, 0.849); 
+    color: rgb(0, 0, 30);
+    font-weight: 600;
+    font-family:cursive;
+}
+
+.fotoencard{
+    height: 15rem;
+    width: 15rem;
+}
+
+
 
